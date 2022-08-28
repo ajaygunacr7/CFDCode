@@ -1,0 +1,36 @@
+5
+(
+    frontAndBack
+    {
+        type            empty;
+        inGroups        1(empty);
+        nFaces          36;
+        startFace       27;
+    }
+    patch#1
+    {
+        type            patch;
+        nFaces          6;
+        startFace       63;
+    }
+    patch#2
+    {
+        type            patch;
+        nFaces          6;
+        startFace       69;
+    }
+    patch#3
+    {
+        type            patch;
+        nFaces          3;
+        startFace       75;
+    }
+    patch#4
+    {
+        type            patch;
+        nFaces          3;
+        startFace       78;
+    }
+)
+
+// ************************************************************************* //
