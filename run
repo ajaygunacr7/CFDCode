@@ -1,0 +1,9 @@
+clear
+g++ code/Mesh.cpp -o out || { exit; }
+echo -e "Compiliation was a sucess." 
+read -p "Do you want to execute the code? (Y/n) : " C
+if [[ $C =~ Y || $C =~ y ]];
+then 
+	./out
+fi
+
